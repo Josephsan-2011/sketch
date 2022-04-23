@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://www.illustrationsof.com/royalty-free-rf-pixels-clipart-illustration-by-andrei-marincas-stock-sample-1167501.jpg");
+}
+h1 {
+    color: navy;
+    background-color: violet;
+}
+#thebutton {
+    float:right;
+}
+#thebutton :hover{
+    background-color: red;
+}
+p {
+    padding-top: 20px;
+    font-size: 30px;
+}
+canvas {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:5px solid violet;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+@keyframes rainbow {
+    from{
+        box-shadow:2px 1px 40px rgb(89, 0, 255);
+    }
+    to{
+        box-shadow:2px 1px 40px rgb(191, 4, 238);
+    }
+}
